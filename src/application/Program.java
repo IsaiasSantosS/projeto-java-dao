@@ -36,11 +36,15 @@ public class Program {
 		//System.out.println("Inserted! New id = " + newSeller.getId());
 		
 		System.out.println("===========================================");
-		seller = dao.findById(9);
+		/*seller = dao.findById(9);
 		seller.setName("Isaac");
 		seller.setEmail("isaac@gmail.com");
 		dao.update(seller);
-		System.out.println("Update Completed");
+		System.out.println("Update Completed");*/
+		
+		System.out.println("===========================================");
+		//dao.deleteById(10);
+		System.out.println("Delete Completed");
 		
 	}
 
